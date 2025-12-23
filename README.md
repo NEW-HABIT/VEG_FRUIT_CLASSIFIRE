@@ -81,7 +81,7 @@ Softmax Output (36 Classes)
 
 
 ```
-![Hybrid Model Architecture](assets/model_structure.png)
+!(model_structure.png)
 ```
 
 ---
@@ -218,3 +218,4 @@ http://localhost:8501
 
 This project is developed for **educational and research purposes**.  
 You are free to use, modify, and enhance it.
+
