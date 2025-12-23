@@ -18,7 +18,6 @@ def load_model():
     return tf.keras.models.load_model(
         "hibrid.keras",
         compile=False,
-        safe_mode=False
     )
 
 
