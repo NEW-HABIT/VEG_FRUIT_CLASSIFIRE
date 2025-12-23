@@ -139,8 +139,7 @@ fruit_veg_app/
 ├── class_names.py        # Class labels
 ├── nutrition_data.py    # Nutrition database
 ├── requirements.txt     # Dependencies
-├── assets/
-│   └── model_structure.png
+├── model_structure.png
 └── README.md
 ```
 
@@ -212,11 +211,9 @@ http://localhost:8501
 - GitHub: https://github.com/NEW-HABIT  
 - LinkedIn: https://www.linkedin.com/in/barshan-adhikari  
 
----
 
-## 📜 License
 
-This project is developed for **educational and research purposes**.  
-You are free to use, modify, and enhance it.
+
+
 
 
