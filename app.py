@@ -12,9 +12,15 @@ st.set_page_config(page_title="Fruit & Veg Classifier", page_icon="🥦", layout
 st.title("🍎 Fruit & Vegetable Classification System")
 st.write("Upload image → Predict → View Nutrition")
 
+
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("hibrid.keras")
+    return tf.keras.models.load_model(
+        "hibrid.keras",
+        compile=False,
+        safe_mode=False
+    )
+
 
 model = load_model()
 
